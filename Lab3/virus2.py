@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import glob, os, re
 
-path = "/home/pi/Lab3"
+path = "/home/pi/sandbox"
 os.chdir(path)
 name = "MAngelou"
 count = 1

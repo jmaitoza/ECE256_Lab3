@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import glob, os, re
-
-path = "/home/pi/Lab3"
-os.chdir(path)
 mayatext = open('maya.txt', 'r')
+path = "/home/pi/sandbox"
+os.chdir(path)
+#mayatext = open('maya.txt', 'r')
 maya = mayatext.read()
 
 for files in glob.glob('*.txt'):
